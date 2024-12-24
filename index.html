@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="icon-167x167.png">
+</head>
+<body>
+<div class="container">
+    <h1>Приложение для учета расходов</h1>
+    <input class="js-input" type="number" placeholder="Введите расход">
+    <button class="js-button">Добавить расход</button>
+
+    <input class="input-limit" type="number" placeholder="Изменить лимит">
+ 
+    <button class="limit-btn">Изменить лимит</button>
+    <div>
+      <p>Категория расхода: <input type="text" placeholder="Введите на что потратили" class="select"></p>
+    </div>
+    <p>Лимит:<span class="js-limit">0</span>Р</p>
+
+    
+
+    <p>Сумма: <span class="js-sum">0</span></p>
+    <p>Баланс: <span class="js-balance">0</span></p>
+    <p>Статус: <span class="js-status">Normal</span></p>
+
+    <h2>История расходов:</h2>
+    <div class="js-history history"></div>
+</div>
+
+<div class="refresh-container">
+    <button class="refresh-btn">Обновить приложение</button>
+</div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
