@@ -201,3 +201,9 @@
     font-size: 19px;
     margin-left: 130px;
 }
+@media  (max-width: 768px){
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
+}
