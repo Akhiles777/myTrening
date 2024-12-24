@@ -1,46 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense Tracker</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="icon-180x180.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="icon-167x167.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nuteo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <h1>Приложение для учета расходов</h1>
-    <input class="js-input" type="number" placeholder="Введите расход">
-    <button class="js-button">Добавить расход</button>
 
-    <input class="input-limit" type="number" placeholder="Изменить лимит">
- 
-    <button class="limit-btn">Изменить лимит</button>
-    <div>
-      <p>Категория расхода: <input type="text" placeholder="Введите на что потратили" class="select"></p>
+<div class="box">
+
+    <h1 class="h1-nuteo">
+        Nuteo
+    </h1>
+
+
+    <a>
+        <button class="morning-btn">Завтраки</button>
+
+    </a>
+    <a>
+        <button class="pizza-btn">Пицца</button>
+    </a>
+
+    <a>
+        <button class="drink-btn">Напитки</button>
+    </a>
+
+    <a>
+        <button class="desert-btn">Десерты</button>
+    </a>
+
+    <a>
+        <button class="contact-btn">Контакты</button>
+    </a>
+
+    <a>
+        <button class="phone-btn">Позвонить</button>
+    </a>
+
+
+</div>
+
+
+<div>
+    <img src="Frame_1.png" class="img">
+</div>
+
+
+<h1 class="morning-menu">Завтраки</h1>
+
+<div class="menu-slide-1">
+
+    <div class="menu-chees">
+        <img src="nuteo-1.jpg" class="img-nuteo-1">
+        <p class="img-nuteo-1-p">Сырник с нутеллой и ягодами</p>
+        <p class="nuteo-1-money">550 р.</p>
     </div>
-    <p>Лимит:<span class="js-limit">0</span>Р</p>
 
-    
 
-    <p>Сумма: <span class="js-sum">0</span></p>
-    <p>Баланс: <span class="js-balance">0</span></p>
-    <p>Статус: <span class="js-status">Normal</span></p>
 
-    <h2>История расходов:</h2>
-    <div class="js-history history"></div>
+
+
+    <div class="menu-chees-duba">
+        <img src="nuteo-2.jpg" class="img-nuteo-2">
+        <p class="img-nuteo-2-p">Дубайский сырник</p>
+
+        <p class="nuteo-2-money">600 р.</p>
+    </div>
+
+    <div class="menu-cherry">
+        <img src="nuteo-3.jpg" class="img-nuteo-3">
+        <p class="img-nuteo-3-p">Сырник с сметанным кремом и соусом пряной вишни</p>
+
+        <p class="nuteo-3-money">450 р.</p>
+    </div>
+
+    <div class="chees-mango">
+        <img src="nuteo-4.jpg" class="img-nuteo-4">
+        <p class="img-nuteo-4-p">Сырники с соусом манго-маракуйя и заварным кремом</p>
+
+        <p class="nuteo-4-money">550 р.</p>
+    </div>
+
 </div>
 
-<div class="refresh-container">
-    <button class="refresh-btn">Обновить приложение</button>
+<div class="menu-slide-2">
+
 </div>
 
 
 
-<script src="index.js"></script>
+
+
+
 </body>
 </html>
