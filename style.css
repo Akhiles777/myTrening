@@ -421,9 +421,40 @@ padding-bottom: 50px;
 }
 
 
-@media screen and (max-width: 768px){
-    body{
-        width: 90%;
-        padding: 10px;
-    }
+/* Основной стиль для десктопов */
+
+
+/* Адаптация для устройств с шириной экрана меньше 768px (планшеты и телефоны) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .nav {
+    flex-direction: column; /* Ставим элементы меню в колонку */
+    align-items: center;
+  }
+
+  .nav a {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header {
+    font-size: 1.5em; /* Уменьшаем размер заголовка */
+  }
 }
+
+/* Адаптация для устройств с шириной экрана меньше 480px (телефоны) */
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 1.2em; /* Ещё меньше размер заголовка */
+  }
+
+  .nav a {
+    padding: 8px 15px; /* Уменьшаем внутренние отступы */
+  }
+}
+
