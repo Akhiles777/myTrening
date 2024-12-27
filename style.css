@@ -1,0 +1,1109 @@
+body{
+    background-color: whitesmoke;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+.container{
+
+}
+
+.box{
+
+border-radius: 50px;
+    width: 100%;
+    height: 120px;
+    background-color: honeydew;
+
+}
+
+.h1-nuteo{
+
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+
+.morning-btn{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+.pizza-btn{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.drink-btn{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.desert-btn{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.contact-btn{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.phone-btn{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.morning-menu{
+
+    padding-bottom: 50px;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu-morning{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    margin-left: 0px;
+    margin-right: 0px;
+
+   border-radius: 0px;
+    margin-top: 100px;
+    width: 100%;
+    height: 30%;
+}
+
+img{
+
+    margin-left: 20px;
+
+    object-fit: cover;
+    width: 310px;
+    height: 290px;
+    border-radius: 25%;
+}
+
+
+p{
+
+    font-size: 20px;
+    width: 60%;
+    font-size: 20px;
+    color: red;
+    margin-left: 50px;
+}
+
+.menu-slide-1{
+    display: flex;
+
+}
+
+.menu-chees{
+
+    margin-left: 20px;
+    width: 310px;
+    height: 10px;
+
+
+}
+
+
+
+.img-nuteo-1{
+    object-fit: cover;
+    height: auto;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-1-p{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.nuteo-1-money{
+    color: black;
+
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+.img-nuteo-2{
+    object-fit: cover;
+    margin-left: 60px;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-2-p{
+    font-size: 20px;
+
+    color: red;
+    text-align: center;
+
+}
+
+.nuteo-2-money{
+    color: black;
+
+    text-align: center;
+    font-size: 19px;
+}
+
+
+.img-nuteo-3{
+    object-fit: cover;
+    margin-left: 60px;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-3-p{
+    width: 80%;
+    font-size: 20px;
+    color: red;
+    margin-left: 90px;
+}
+
+
+.nuteo-3-money{
+    color: black;
+
+    font-size: 19px;
+    margin-left: 170px;
+}
+
+
+.img-nuteo-4{
+    object-fit: cover;
+    margin-left: 50px;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-4-p{
+
+    font-size: 20px;
+    width: 60%;
+    font-size: 20px;
+    color: red;
+    margin-left: 90px;
+}
+
+.nuteo-4-money{
+    color: black;
+
+    font-size: 19px;
+    margin-left: 180px;
+}
+
+.menu-slide-2{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+
+.img-nuteo-5{
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-5-p{
+    font-size: 20px;
+    width: 60%;
+    font-size: 20px;
+    color: red;
+    margin-left: 90px;
+}
+
+.nuteo-5-money{
+    color: black;
+
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+
+.img-nuteo-6{
+    object-fit: cover;
+    margin-left: 50px;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+
+.img-nuteo-6-p{
+    font-size: 20px;
+    width: 60%;
+    font-size: 20px;
+    color: red;
+    margin-left: 50px;
+}
+
+.nuteo-6-money{
+    color: black;
+
+    font-size: 19px;
+    margin-left: 150px;
+}
+
+
+.img-nuteo-7{
+    display: block;
+    margin-right: 220px;
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-7-p{
+    font-size: 20px;
+    width: 60%;
+    font-size: 20px;
+    color: red;
+    margin-left: 120px;
+}
+.nuteo-7-money{
+    color: black;
+
+    font-size: 19px;
+    margin-left: 120px;
+}
+
+
+
+
+.img-nuteo-8{
+    margin-left: -150px;
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-8-p{
+    margin-left: -50px;
+    font-size: 20px;
+    padding-right: 50px;
+    color: red;
+}
+
+.nuteo-8-money{
+    color: black;
+
+    font-size: 19px;
+    margin-left: -45px;
+}
+
+
+.menu-slide-3{
+    display: flex;
+}
+
+
+.img-nuteo-9{
+
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-9-p{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.img-nuteo-9-p-mini{
+
+    font-size: 15px;
+    text-align: center;
+}
+
+.img-nuteo-9-p-mini-2{
+    font-size: 15px;
+    text-align: center;
+}
+.nuteo-9-money{
+    color: black;
+
+    text-align: center;
+}
+
+
+.img-nuteo-10{
+    margin-left: 30px;
+
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-10-p{
+
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-nuteo-10-p-mini{
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nuteo-10-money{
+    color: black;
+
+    text-align: center;
+}
+
+
+.img-nuteo-11{
+    margin-left: 10px;
+
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-11-p{
+    margin-left: 70px;
+    font-size: 20px;
+
+    color: red;
+
+}
+.img-nuteo-11-p-mini{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+}
+.nuteo-11-money{
+    color: black;
+
+    text-align: center;
+}
+
+.img-nuteo-12{
+
+    margin-left: 0px;
+    border: 1px solid black;
+    object-fit: cover;
+    width: 310px;
+    height: 270px;
+    border-radius: 25%;
+}
+
+.img-nuteo-12-p{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+
+}
+
+.nuteo-12-money{
+    color: black;
+
+    text-align: center;
+}
+
+
+
+.pasta{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.h1-pasta{
+    font-size: 60px;
+    margin-left: 600px;
+}
+
+
+.menu-slide-4{
+
+   display: flex;
+
+
+
+}
+
+.pasta{
+    padding: 0px;
+    margin: 0auto 0;
+}
+
+
+
+
+.nuteo-13-money{
+    color: black;
+
+}
+
+.img-nuteo-13-p-mini{
+    font-size: 15px;
+    color: black;
+}
+
+
+.img-nuteo-14{
+margin-left: 60px;
+}
+
+.img-nuteo-14-p{
+
+    margin-left: 110px;
+    width: 50%;
+}
+
+
+
+
+
+
+.nuteo-14-money{
+    margin-right: 20px;
+   text-align: center;
+   color: black;
+
+}
+
+
+
+.img-nuteo-15{
+    margin-left: 60px;
+ position: static;
+}
+
+.img-nuteo-15-p{
+  margin-left: 110px;
+}
+
+ .nuteo-15-money{
+
+     margin-left: 180px;
+   color: black;
+ }
+
+
+.img-nuteo-16{
+margin-left: 50px;
+}
+
+.img-nuteo-16-p{
+    text-align: center;
+     margin-left: 90px;
+}
+
+.nuteo-16-money{
+    color: black;
+
+    margin-left: 170px;
+}
+
+#h1-pizza{
+    font-size: 70px;
+    margin-left: 600px;
+}
+
+.menu-slide-5{
+    display: flex;
+}
+
+.img-nuteo-17{
+
+    height: 320px;
+
+}
+.img-nuteo-17-p{
+    margin-left: 90px;
+}
+
+
+.nuteo-17-money{
+   margin-left: 100px;
+    color: black;
+}
+
+.img-nuteo-18{
+    margin-left: 50px;
+    height: 320px;
+}
+
+.img-nuteo-18-p{
+     margin-right: 200px;
+    text-align: center;
+}
+
+.nuteo-18-money{
+    color: black;
+
+    margin-right: 300px;
+    text-align: center;
+}
+
+
+.img-nuteo-19{
+    height: 320px;
+}
+
+
+.img-nuteo-19-p{
+    text-align: center;
+    margin-left: 60px;
+
+}
+
+
+.nuteo-19-money{
+    color: black;
+ margin-left: 130px;
+}
+
+.img-nuteo-20{
+    margin-left: 60px;
+    height: 320px;
+}
+
+.img-nuteo-20-p{
+
+    margin-left: 90px;
+    text-align: center;
+
+}
+.nuteo-20-money{
+    color: black;
+    margin-left: 170px;
+}
+
+
+
+
+#h1-desert{
+
+    font-size: 70px;
+    margin-left: 600px;
+}
+
+.desert{
+    display: flex;
+
+}
+
+.img-nuteo-23{
+    margin-left: 20px;
+}
+
+.img-nuteo-23-p{
+    text-align: center;
+}
+
+
+
+.nuteo-23-money{
+    color: black;
+   margin-left: 130px;
+
+}
+
+.img-nuteo-24{
+    margin-left: 60px;
+}
+
+.img-nuteo-24-p{
+    margin-left: 140px;
+}
+.nuteo-24-money{
+    color: black;
+    margin-left: 180px;
+}
+
+.img-nuteo-25{
+    margin-left: 50px;
+}
+
+
+.img-nuteo-25-p{
+    margin-left: 130px;
+}
+
+.nuteo-25-money{
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+}
+
+.img-nuteo-26{
+    margin-left: 60px;
+}
+
+
+.img-nuteo-26-p{
+    margin-left: 140px;
+}
+
+.nuteo-26-money{
+color: black;
+
+margin-left: 200px;
+}
+
+.menu-slide-6{
+    display: flex;
+}
+
+.img-nuteo-27-p{
+    margin-left: 90px;
+
+}
+.nuteo-27-money{
+    color: black;
+    margin-left: 140px;
+}
+
+.img-nuteo-28{
+    margin-left: 60px;
+}
+
+.img-nuteo-28-p{
+    margin-left: 160px;
+}
+
+.nuteo-28-money{
+    margin-left: 200px;
+    color: black;
+}
+
+.img-nuteo-29{
+    margin-left: 60px;
+}
+
+.img-nuteo-29-p{
+    margin-left: 120px
+}
+.nuteo-29-money{
+    color: black;
+    margin-left: 200px;
+}
+
+.img-nuteo-30{
+    margin-left: 60px;
+}
+.img-nuteo-30-p{
+    margin-left: 150px;
+}
+.nuteo-30-money{
+    color: black;
+    margin-left: 190px;
+}
+
+.h1-coffe{
+    font-size: 60px;
+    margin-left: 685px;
+}
+
+#coffe{
+    margin-top: 160px;
+    display: flex;
+
+}
+
+.coffe-p{
+
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+
+.coffe-money{
+    margin-left: 218px;
+    text-align: center;
+}
+
+.coffe-2{
+    margin-top: 30px;
+    display: flex;
+}
+
+.menu-slide-7{
+    display: flex;
+}
+
+
+.coffe-3{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.coffe-p-cacao{
+    margin-left: 220px;
+    font-size: 25px;
+}
+
+.coffe-money-cacao{
+    text-align: center;
+    margin-left: 220px;
+}
+.coffe-p-arakhis{
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+.coffe-money-arakhis{
+    margin-left: 290px;
+}
+
+.coffe-3{
+    margin-left: 0px;
+}
+
+.h1-ice{
+    font-size: 60px;
+    margin-left: 685px;
+}
+
+.ice{
+    display: flex;
+}
+
+
+.ice-p{
+    margin-left: 200px;
+    font-size: 25px;
+}
+.ice-money{
+    margin-left: 218px;
+    text-align: center;
+}
+
+
+.ice-2{
+    display: flex;
+}
+
+.ice-p-granat-tonik{
+    width: 100%;
+    margin-left: 130px;
+    font-size: 25px;
+}
+
+.ice-money-granat-tonik{
+    margin-left: 200px;
+    text-align: center;
+}
+
+.ice-money-bambl{
+    margin-left: 270px;
+}
+
+.h1-fresh{
+    font-size: 60px;
+    margin-left: 660px;
+}
+
+.fresh{
+    display: flex;
+}
+
+.fresh-p{
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.fresh-money{
+
+    margin-left: 218px;
+    text-align: center;
+}
+
+.h1-chai{
+
+    font-size: 60px;
+    margin-left: 660px;
+}
+
+.chai{
+    display: flex;
+}
+
+.chai-p{
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.chai-money{
+    margin-left: 218px;
+    text-align: center;
+}
+
+
+.chai-2{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.h1-limonad{
+
+
+    font-size: 60px;
+    margin-left: 600px;
+}
+
+
+.limonad{
+    display: flex;
+}
+
+.limonad-p{
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.limonad-money{
+    margin-left: 240px;
+    text-align: center;
+}
+
+.h1-coctell{
+
+    font-size: 60px;
+    margin-left: 600px;
+}
+
+.coctell{
+    display: flex;
+}
+
+.coctell-p{
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.coctell-money{
+    margin-left: 240px;
+    text-align: center;
+}
+
+.h1-babl-ti{
+
+    font-size: 60px;
+    margin-left: 600px;
+}
+
+.babl-ti{
+    display: flex;
+}
+
+.babl-ti-p{
+    margin-left: 210px;
+    font-size: 25px;
+}
+
+.babl-ti-money{
+    margin-left: 240px;
+    text-align: center;
+}
+
+.h1-sezon{
+    font-size: 60px;
+    margin-left: 600px;
+}
+
+.sezon{
+    display: flex;
+}
+
+.sezon-p{
+    margin-left: 210px;
+    font-size: 25px;
+}
+
+.sezon-money{
+    margin-left: 260px;
+    text-align: center;
+}
+
+.sezon-p-guar{
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.sezon-money-guar{
+    margin-left: 180px;
+    text-align: center;
+}
+
+.sezon-p-malina{
+    margin-left: 165px;
+    font-size: 25px;
+}
+
+.sezon-money-malina{
+    margin-left: 195px;
+    text-align: center;
+}
+
+.sezon-p-glitvein{
+    margin-left: 115px;
+    font-size: 25px;
+}
+
+.sezon-money-glitvein{
+
+    margin-left: 150px;
+    text-align: center;
+}
+
+.babl-ti-p-clubnika{
+    margin-left: 145px;
+    font-size: 25px;
+}
+
+.babl-ti-money-clubnika{
+
+    margin-left: 180px;
+    text-align: center;
+}
+
+
+/* Основной контейнер футера */
+.footer {
+    display: flex;
+    justify-content: center; /* Выравнивание по центру */
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Фон футера */
+    position: relative;
+}
+
+/* Внутренний блок для логотипа и текста */
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Логотип сверху, текст снизу */
+    align-items: center;
+    gap: 10px; /* Расстояние между логотипом и текстом */
+}
+
+/* Стили для логотипа */
+.footer-logo img {
+    width: 50px; /* Размер логотипа */
+    height: auto;
+}
+
+/* Стили для текста */
+.footer-text {
+    margin-left: 470px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: black;
+    width: 100%;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+
+.name-comp{
+    color: black;
+}
+
+.name{
+    color: black;
+}
+
+/* Черный блок футера */
+/* Черный блок футера */
+.footer-1 {
+
+
+
+    width: 100%; /* Растянуть на всю ширину страницы */
+    height: 100px; /* Высота черного блока */
+    background-color: black; /* Цвет блока */
+    position: relative; /* Чтобы блок находился внизу страницы */
+    border-radius: 30px;
+
+    margin: 0 auto px;
+    padding: 0px;
+}
+
+.Novokuli{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+   padding-top: 20px;
+}
