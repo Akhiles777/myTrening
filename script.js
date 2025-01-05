@@ -17,3 +17,6 @@ scrollToTopButton.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+navigator.geolocation.getCurrentPosition((position) => {
+    console.log(`Широта: ${position.coords.latitude}, Долгота: ${position.coords.longitude}`);
+});
